@@ -7,7 +7,7 @@ const AccountVerificationScreen = () => {
   const navigate = useNavigate(); 
 
   const navigateToVerification = () => {
-    navigate("/verify"); 
+    navigate("/OTP"); 
   };
 
   return (

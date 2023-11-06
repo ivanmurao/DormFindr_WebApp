@@ -11,6 +11,7 @@ import HelpScreen from "./navigations/HelpScreen";
 import AccountVerificationScreen from "./user/AccountVerificationScreen";
 import Terms from "./user/TermsScreen";
 import BeOneScreen from "./user/BeOneScreen";
+import OTPScreen from "./user/OTPScreen";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/account-verification" element={<AccountVerificationScreen />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/beone" element={<BeOneScreen />} />
+          <Route path="/OTP" element={<OTPScreen />} />
         </Routes>
       </div>
     </Router>

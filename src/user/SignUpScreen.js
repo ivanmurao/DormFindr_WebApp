@@ -28,7 +28,7 @@ const SignUpScreen = () => {
       <div className="signup-container">
         <h2>Create an Account</h2>
         <div className="input2-container">
-          <input type="text" placeholder="Enter your Username" />
+          <input type="text" placeholder="Enter your Name" />
         </div>
         <div className="input2-container">
           <input type="text" placeholder="Enter your Email" />
